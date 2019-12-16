@@ -31,15 +31,16 @@ Other notes
 
 
 
-Pandoc/epub information
------------------------
+Note: Pandoc/epub information
+-----------------------------
 
 - https://pandoc.org/epub.html
 
 
 
-ePub Example: https://medium.com/@davidgrophland/making-an-ebook-from-markdown-to-kindle-cf224326b1a2
----------------------------------------------------------------------------------------
+Note: [An ePub example on medium.com](https://medium.com/@davidgrophland/making-an-ebook-from-markdown-to-kindle-cf224326b1a2)
+----------------------------------------------------------------------------------------------------
+
 - command:
 
 pandoc -o Book.epub metadata.yaml Book.md 

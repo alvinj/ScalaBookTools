@@ -7,10 +7,12 @@ Here are a few notes on how to build EPUB and MOBI files.
 
 The build process
 -----------------
-- cd into the *MarkdownFiles* directory
-- cp the latest Markdown files into that directory
+- `cd` into the *epub* directory; the EPUB and MOBI process currently starts there
+- `cd` into the *MarkdownFiles* directory (*$PROJECT_HOME/epub/MarkdownFiles*)
+- `cp` the latest Scala Book markdown files that were created for the website into that directory
+- `cd` back up to the *epub* directory (*$PROJECT_HOME/epub*)
 - run the *1createEpub.sh* script to generate the EPUB file
-- run the *1createMobi.sh* script to generate the MOBI file
+- after that works, run the *1createMobi.sh* script to generate the MOBI file
 
 
 

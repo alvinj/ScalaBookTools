@@ -9,10 +9,12 @@ The build process
 -----------------
 - `cd` into the *epub* directory; the EPUB and MOBI process currently starts there
 - `cd` into the *MarkdownFiles* directory (*$PROJECT_HOME/epub/MarkdownFiles*)
-- `cp` the latest Scala Book markdown files that were created for the website into that directory
 - `cd` back up to the *epub* directory (*$PROJECT_HOME/epub*)
 - run the *1createEpub.sh* script to generate the EPUB file
-- after that works, run the *1createMobi.sh* script to generate the MOBI file
+    - this script copies the Markdown files from where 
+      they are expected to be, so check the script for that directory
+      before running this script
+- after that works, run the *2createMobi.sh* script to generate the MOBI file
 
 
 

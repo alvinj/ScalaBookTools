@@ -1,9 +1,11 @@
 ---
 title: Scala Book
-author: Alvin Alexander, et al
-rights:  Creative Commons Non-Commercial Share Alike 3.0
+subtitle: Learn Scala fast with small, easy lessons
+author: Alvin Alexander
+rights:  Creative Commons NonCommercial Share Alike 3.0
 language: en-US
 cover-image: cover.jpg
+date: April 26, 2020
 ---
 
 
